@@ -1,0 +1,78 @@
+/* Arquivo planos.css */
+body {
+  background-color: #7ea1c5;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #343a40;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: center;
+}
+
+.plan {
+  width: 300px;
+  margin: 0 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.plan h2 {
+  font-size: 24px;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.plan .price {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.plan ul li {
+  font-size: 16px;
+  color: #343a40;
+}
+
+.plan .btn {
+  display: block;
+  width: 100%;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.plan .btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .plans-container {
+    flex-wrap: wrap;
+  }
+
+  .plan {
+    margin-bottom: 20px;
+  }
+}

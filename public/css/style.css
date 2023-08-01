@@ -1,0 +1,82 @@
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.company-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.company-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.platform-info,
+.dashboard-info,
+.subscription-info {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.plan {
+    background-color: #ffd344;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.plan:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.plan-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.plan-price {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.plan-features li {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #c8ff00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #485c00;
+}

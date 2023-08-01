@@ -1,0 +1,23 @@
+.home{
+    position: relative !important;
+    width: 30%;
+    left: 20%;
+}
+.home{
+    transition: transform 0.3s ease;
+  }
+  
+  .home:hover {
+    transform: scale(1.1);
+  }
+  body{
+    background-color:rgb(248, 223, 142)
+
+}
+
+hr {
+    border-color:rgb(0, 0, 0)
+}
+.navbar-brand:hover {
+  text-decoration: underline;
+}

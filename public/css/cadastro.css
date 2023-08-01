@@ -1,0 +1,25 @@
+.cadastro-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.cadastro-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cadastro-form .form-label {
+    font-weight: bold;
+}
+
+.cadastro-form .form-control {
+    margin-bottom: 10px;
+}
+
+.cadastro-form button {
+    width: 100%;
+}
